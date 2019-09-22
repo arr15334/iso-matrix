@@ -20,10 +20,11 @@
       <td>{{ q.subcategory }}</td>
       <td>{{ q.section }}</td>
       <td>{{ q.question }}</td>
-      <td> <input type="number" name="value" id="q.id"> </td>
+      <td> <input type="number" name="value" id="q.id" v-model="q.value"
+      max=100 min=0> </td>
     </tr>
-  
   </table>
+  <button>Actualizar</button>
   </v-container>
 </template>
 
