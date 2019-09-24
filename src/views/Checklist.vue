@@ -24,11 +24,12 @@
       max=100 min=0> </td>
     </tr>
   </table>
-  <button>Actualizar</button>
+  <button v-on:click="updateData">Actualizar</button>
   </v-container>
 </template>
 
 <script>
+import writeJsonFile from 'write-json-file'
   export default {
     data: () => ({
       dialog: false,
@@ -63,6 +64,10 @@
       items: [],
     }),
     methods: {
+      updateData: function () {
+        const jsonOutput = JSON.stringify(this.items)
+        window.localStorage.setItem('iso-data', jsonOutput)
+      }
     },
     created: function () {
       this.items = require('../assets/template.json').data

@@ -5,12 +5,24 @@
         cols="12"
         lg="4"
       >
+      <v-col
+        cols="12"
+        lg="12"
+      >
         <material-chart-card
           :data="dailySalesChart.data"
           :options="dailySalesChart.options"
           color="info"
-          type="Line"
-        >
+          type="Line">
+          <h4> Cumplimiento por dominio </h4>
+        </material-chart-card>
+      </v-col>
+
+        <material-chart-card
+          :data="dailySalesChart.data"
+          :options="dailySalesChart.options"
+          color="info"
+          type="Line">
           <h4 class="title font-weight-light">
             Daily Sales
           </h4>
@@ -18,8 +30,7 @@
           <p class="category d-inline-flex font-weight-light">
             <v-icon
               color="green"
-              small
-            >
+              small>
               mdi-arrow-up
             </v-icon>
             <span class="green--text">55%</span>&nbsp;
