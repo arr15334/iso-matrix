@@ -3,108 +3,15 @@
     <v-row>
       <v-col
         cols="12"
-        lg="4"
-      >
-      <v-col
-        cols="12"
         lg="12"
       >
         <material-chart-card
-          :data="dailySalesChart.data"
-          :options="dailySalesChart.options"
+          :data="isoAccChart.data"
+          :options="isoAccChart.options"
           color="info"
-          type="Line">
-          <h4> Cumplimiento por dominio </h4>
-        </material-chart-card>
-      </v-col>
-
-        <material-chart-card
-          :data="dailySalesChart.data"
-          :options="dailySalesChart.options"
-          color="info"
-          type="Line">
-          <h4 class="title font-weight-light">
-            Daily Sales
-          </h4>
-
-          <p class="category d-inline-flex font-weight-light">
-            <v-icon
-              color="green"
-              small>
-              mdi-arrow-up
-            </v-icon>
-            <span class="green--text">55%</span>&nbsp;
-            increase in today's sales
-          </p>
-
-          <template v-slot:actions>
-            <v-icon
-              class="mr-2"
-              small
-            >
-              mdi-clock-outline
-            </v-icon>
-            <span class="caption grey--text font-weight-light">updated 4 minutes ago</span>
-          </template>
-        </material-chart-card>
-      </v-col>
-
-      <v-col
-        cols="12"
-        lg="4"
-      >
-        <material-chart-card
-          :data="emailsSubscriptionChart.data"
-          :options="emailsSubscriptionChart.options"
-          :responsive-options="emailsSubscriptionChart.responsiveOptions"
-          color="red"
           type="Bar"
         >
-          <h4 class="title font-weight-light">
-            Email Subscription
-          </h4>
-          <p class="category d-inline-flex font-weight-light">
-            Last Campaign Performance
-          </p>
-
-          <template v-slot:actions>
-            <v-icon
-              class="mr-2"
-              small
-            >
-              mdi-clock-outline
-            </v-icon>
-            <span class="caption grey--text font-weight-light">updated 10 minutes ago</span>
-          </template>
-        </material-chart-card>
-      </v-col>
-
-      <v-col
-        cols="12"
-        lg="4"
-      >
-        <material-chart-card
-          :data="dataCompletedTasksChart.data"
-          :options="dataCompletedTasksChart.options"
-          color="green"
-          type="Line"
-        >
-          <h3 class="title font-weight-light">
-            Completed Tasks
-          </h3>
-          <p class="category d-inline-flex font-weight-light">
-            Last Last Campaign Performance
-          </p>
-
-          <template v-slot:actions>
-            <v-icon
-              class="mr-2"
-              small
-            >
-              mdi-clock-outline
-            </v-icon>
-            <span class="caption grey--text font-weight-light">campaign sent 26 minutes ago</span>
-          </template>
+          <h4> Cumplimiento por dominio </h4>
         </material-chart-card>
       </v-col>
 
@@ -417,79 +324,8 @@
   export default {
     data () {
       return {
-        dailySalesChart: {
-          data: {
-            labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
-            series: [
-              [12, 17, 7, 17, 23, 18, 38],
-            ],
-          },
-          options: {
-            lineSmooth: this.$chartist.Interpolation.cardinal({
-              tension: 0,
-            }),
-            low: 0,
-            high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
-            chartPadding: {
-              top: 0,
-              right: 0,
-              bottom: 0,
-              left: 0,
-            },
-          },
-        },
-        dataCompletedTasksChart: {
-          data: {
-            labels: ['12am', '3pm', '6pm', '9pm', '12pm', '3am', '6am', '9am'],
-            series: [
-              [230, 750, 450, 300, 280, 240, 200, 190],
-            ],
-          },
-          options: {
-            lineSmooth: this.$chartist.Interpolation.cardinal({
-              tension: 0,
-            }),
-            low: 0,
-            high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
-            chartPadding: {
-              top: 0,
-              right: 0,
-              bottom: 0,
-              left: 0,
-            },
-          },
-        },
-        emailsSubscriptionChart: {
-          data: {
-            labels: ['Ja', 'Fe', 'Ma', 'Ap', 'Mai', 'Ju', 'Jul', 'Au', 'Se', 'Oc', 'No', 'De'],
-            series: [
-              [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895],
-            ],
-          },
-          options: {
-            axisX: {
-              showGrid: false,
-            },
-            low: 0,
-            high: 1000,
-            chartPadding: {
-              top: 0,
-              right: 5,
-              bottom: 0,
-              left: 0,
-            },
-          },
-          responsiveOptions: [
-            ['screen and (max-width: 640px)', {
-              seriesBarDistance: 5,
-              axisX: {
-                labelInterpolationFnc: function (value) {
-                  return value[0]
-                },
-              },
-            }],
-          ],
-        },
+        isoAccData: null,
+        isoAccChart: null,
         headers: [
           {
             sortable: false,
@@ -563,6 +399,68 @@
           1: false,
           2: false,
         },
+      }
+    },
+    created: function () {
+      let rawData = window.localStorage.getItem('iso-data') || null
+      let categories = []
+      let values = []
+      let cleanData = {}
+      if (rawData) {
+        rawData = JSON.parse(rawData)
+        for (const item of rawData) {
+          console.log(item)
+          console.log(categories)
+          if (categories.indexOf(item.category) < 0) {
+            categories.push(item.category)
+            cleanData[item.category] = {
+              count: 1,
+              acc: item.value * 1,
+              val: item.value * 1,
+            }
+          } else {
+            cleanData[item.category].count++
+            cleanData[item.category].acc = cleanData[item.category].acc * 1 + item.value * 1
+            cleanData[item.category].val = cleanData[item.category].acc / cleanData[item.category].count
+          }
+        }
+      }
+
+      for (let k in cleanData) {
+        if (cleanData.hasOwnProperty(k)) {
+          values.push(cleanData[k].val)
+        }
+      }
+      this.isoAccChart = {
+        data: {
+          labels: categories,
+          series: [
+            values,
+          ],
+        },
+        options: {
+          axisX: {
+            showGrid: false,
+          },
+          low: 0,
+          high: 100,
+          chartPadding: {
+            top: 0,
+            right: 5,
+            bottom: 0,
+            left: 0,
+          },
+        },
+        responsiveOptions: [
+          ['screen and (max-width: 640px)', {
+            seriesBarDistance: 5,
+            axisX: {
+              labelInterpolationFnc: function (value) {
+                return value[0]
+              },
+            },
+          }],
+        ],
       }
     },
     methods: {

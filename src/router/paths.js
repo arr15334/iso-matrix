@@ -19,10 +19,6 @@ export default [
     view: 'TableList',
   },
   {
-    path: '/maps',
-    view: 'Maps',
-  },
-  {
     path: '/notifications',
     view: 'Notifications',
   },
