@@ -8,14 +8,14 @@
         <material-chart-card
           :data="isoAccChart.data"
           :options="isoAccChart.options"
-          color="info"
+          color="purple"
           type="Bar"
         >
           <h4> Cumplimiento por dominio </h4>
         </material-chart-card>
       </v-col>
 
-      <v-col
+      <!--      <v-col
         cols="12"
         sm="6"
         lg="3"
@@ -69,251 +69,39 @@
         lg="3"
       >
         <material-stats-card
-          color="info"
+          color="purple"
           icon="mdi-twitter"
           title="Followers"
           value="+245"
           sub-icon="mdi-update"
           sub-text="Just Updated"
         />
-      </v-col>
+      </v-col> -->
 
       <v-col
         cols="12"
-        lg="6"
+        lg="12"
       >
         <material-card
-          color="orange"
-          title="Employee Stats"
-          text="New employees on 15th September, 2016"
+          color="green"
+          title="Cumplimiento por control"
+          text="Resumen"
         >
           <v-data-table
             :headers="headers"
-            :items="items"
+            :items="tableData"
+            class="elevation-1"
             hide-default-footer
-          />
-        </material-card>
-      </v-col>
-
-      <v-col
-        cols="12"
-        lg="6"
-      >
-        <material-card
-          class="card-tabs"
-          color="green"
-        >
-          <template v-slot:header>
-            <v-tabs
-              v-model="tabs"
-              background-color="transparent"
-              slider-color="white"
-            >
-              <span
-                class="subheading font-weight-light mx-3"
-                style="align-self: center"
-              >Tasks:</span>
-              <v-tab class="mr-3">
-                <v-icon class="mr-2">
-                  mdi-bug
-                </v-icon>
-                Bugs
-              </v-tab>
-              <v-tab class="mr-3">
-                <v-icon class="mr-2">
-                  mdi-code-tags
-                </v-icon>
-                Website
-              </v-tab>
-              <v-tab>
-                <v-icon class="mr-2">
-                  mdi-cloud
-                </v-icon>
-                Server
-              </v-tab>
-            </v-tabs>
-          </template>
-
-          <v-tabs-items v-model="tabs">
-            <v-tab-item
-              v-for="n in 3"
-              :key="n"
-            >
-              <v-list
-                three-line
-                class="py-0"
+          >
+            <template v-slot:item.val="{ item }">
+              <v-chip
+                :color="getColor(item.val)"
+                dark
               >
-                <v-list-item @click="complete(0)">
-                  <v-list-item-action class="align-self-center">
-                    <v-checkbox
-                      :value="list[0]"
-                      color="green"
-                    />
-                  </v-list-item-action>
-
-                  <v-list-item-title>
-                    Sign contract for "What are conference organized afraid of?"
-                  </v-list-item-title>
-
-                  <div class="d-flex">
-                    <v-tooltip
-                      top
-                      content-class="top"
-                    >
-                      <template v-slot:activator="{ attrs, on }">
-                        <v-btn
-                          class="v-btn--simple"
-                          color="green"
-                          icon
-                          v-bind="attrs"
-                          v-on="on"
-                        >
-                          <v-icon color="primary">
-                            mdi-pencil
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Edit</span>
-                    </v-tooltip>
-
-                    <v-tooltip
-                      top
-                      content-class="top"
-                    >
-                      <template v-slot:activator="{ attrs, on }">
-                        <v-btn
-                          class="v-btn--simple"
-                          color="danger"
-                          icon
-                          v-bind="attrs"
-                          v-on="on"
-                        >
-                          <v-icon color="error">
-                            mdi-close
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Close</span>
-                    </v-tooltip>
-                  </div>
-                </v-list-item>
-
-                <v-divider />
-
-                <v-list-item @click="complete(1)">
-                  <v-list-item-action class="align-self-center">
-                    <v-checkbox
-                      :value="list[1]"
-                      color="green"
-                    />
-                  </v-list-item-action>
-
-                  <v-list-item-title>
-                    Lines From Great Russian Literature? Or E-mails From My Boss?
-                  </v-list-item-title>
-
-                  <div class="d-flex">
-                    <v-tooltip
-                      top
-                      content-class="top"
-                    >
-                      <template v-slot:activator="{ attrs, on }">
-                        <v-btn
-                          class="v-btn--simple"
-                          color="green"
-                          icon
-                          v-bind="attrs"
-                          v-on="on"
-                        >
-                          <v-icon color="primary">
-                            mdi-pencil
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Edit</span>
-                    </v-tooltip>
-
-                    <v-tooltip
-                      top
-                      content-class="top"
-                    >
-                      <template v-slot:activator="{ attrs, on }">
-                        <v-btn
-                          class="v-btn--simple"
-                          color="danger"
-                          icon
-                          v-bind="attrs"
-                          v-on="on"
-                        >
-                          <v-icon color="error">
-                            mdi-close
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Close</span>
-                    </v-tooltip>
-                  </div>
-                </v-list-item>
-
-                <v-divider />
-
-                <v-list-item @click="complete(2)">
-                  <v-list-item-action class="align-self-center">
-                    <v-checkbox
-                      :value="list[2]"
-                      color="green"
-                    />
-                  </v-list-item-action>
-
-                  <v-list-item-title>
-                    Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                  </v-list-item-title>
-
-                  <div class="d-flex">
-                    <v-tooltip
-                      top
-                      content-class="top"
-                    >
-                      <template v-slot:activator="{ attrs, on }">
-                        <v-btn
-                          class="v-btn--simple"
-                          color="green"
-                          icon
-                          v-bind="attrs"
-                          v-on="on"
-                        >
-                          <v-icon color="primary">
-                            mdi-pencil
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Edit</span>
-                    </v-tooltip>
-
-                    <v-tooltip
-                      top
-                      content-class="top"
-                    >
-                      <template v-slot:activator="{ attrs, on }">
-                        <v-btn
-                          class="v-btn--simple"
-                          color="danger"
-                          icon
-                          v-bind="attrs"
-                          v-on="on"
-                        >
-                          <v-icon color="error">
-                            mdi-close
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Close</span>
-                    </v-tooltip>
-                  </div>
-                </v-list-item>
-              </v-list>
-            </v-tab-item>
-          </v-tabs-items>
+                {{ item.val }}
+              </v-chip>
+            </template>
+          </v-data-table>
         </material-card>
       </v-col>
     </v-row>
@@ -326,73 +114,8 @@
       return {
         isoAccData: null,
         isoAccChart: null,
-        headers: [
-          {
-            sortable: false,
-            text: 'ID',
-            value: 'id',
-          },
-          {
-            sortable: false,
-            text: 'Name',
-            value: 'name',
-          },
-          {
-            sortable: false,
-            text: 'Salary',
-            value: 'salary',
-            align: 'right',
-          },
-          {
-            sortable: false,
-            text: 'Country',
-            value: 'country',
-            align: 'right',
-          },
-          {
-            sortable: false,
-            text: 'City',
-            value: 'city',
-            align: 'right',
-          },
-        ],
-        items: [
-          {
-            id: 1,
-            name: 'Dakota Rice',
-            country: 'Niger',
-            city: 'Oud-Tunrhout',
-            salary: '$35,738',
-          },
-          {
-            id: 2,
-            name: 'Minerva Hooper',
-            country: 'Curaçao',
-            city: 'Sinaai-Waas',
-            salary: '$23,738',
-          },
-          {
-            id: 3,
-            name: 'Sage Rodriguez',
-            country: 'Netherlands',
-            city: 'Overland Park',
-            salary: '$56,142',
-          },
-          {
-            id: 4,
-            name: 'Philip Chanley',
-            country: 'Korea, South',
-            city: 'Gloucester',
-            salary: '$38,735',
-          },
-          {
-            id: 5,
-            name: 'Doris Greene',
-            country: 'Malawi',
-            city: 'Feldkirchen in Kārnten',
-            salary: '$63,542',
-          },
-        ],
+        headers: [],
+        tableData: [],
         tabs: 0,
         list: {
           0: false,
@@ -402,70 +125,120 @@
       }
     },
     created: function () {
-      let rawData = window.localStorage.getItem('iso-data') || null
-      let categories = []
-      let values = []
-      let cleanData = {}
-      if (rawData) {
-        rawData = JSON.parse(rawData)
-        for (const item of rawData) {
-          console.log(item)
-          console.log(categories)
-          if (categories.indexOf(item.category) < 0) {
-            categories.push(item.category)
-            cleanData[item.category] = {
-              count: 1,
-              acc: item.value * 1,
-              val: item.value * 1,
-            }
-          } else {
-            cleanData[item.category].count++
-            cleanData[item.category].acc = cleanData[item.category].acc * 1 + item.value * 1
-            cleanData[item.category].val = cleanData[item.category].acc / cleanData[item.category].count
-          }
-        }
-      }
-
-      for (let k in cleanData) {
-        if (cleanData.hasOwnProperty(k)) {
-          values.push(cleanData[k].val)
-        }
-      }
-      this.isoAccChart = {
-        data: {
-          labels: categories,
-          series: [
-            values,
-          ],
-        },
-        options: {
-          axisX: {
-            showGrid: false,
-          },
-          low: 0,
-          high: 100,
-          chartPadding: {
-            top: 0,
-            right: 5,
-            bottom: 0,
-            left: 0,
-          },
-        },
-        responsiveOptions: [
-          ['screen and (max-width: 640px)', {
-            seriesBarDistance: 5,
-            axisX: {
-              labelInterpolationFnc: function (value) {
-                return value[0]
-              },
-            },
-          }],
-        ],
-      }
+      this.getChartData()
+      this.groupByControl()
     },
     methods: {
+      getChartData () {
+        let rawData = window.localStorage.getItem('iso-data') || null
+        let categories = []
+        let values = []
+        let cleanData = {}
+        if (rawData) {
+          rawData = JSON.parse(rawData)
+          for (const item of rawData) {
+            if (categories.indexOf(item.category) < 0) {
+              categories.push(item.category)
+              cleanData[item.category] = {
+                count: 1,
+                acc: item.value * 1,
+                val: item.value * 1,
+              }
+            } else {
+              cleanData[item.category].count++
+              cleanData[item.category].acc = cleanData[item.category].acc * 1 + item.value * 1
+              cleanData[item.category].val = cleanData[item.category].acc / cleanData[item.category].count
+            }
+          }
+        }
+
+        for (let k in cleanData) {
+          if (cleanData.hasOwnProperty(k)) {
+            values.push(cleanData[k].val)
+          }
+        }
+        this.isoAccChart = {
+          data: {
+            labels: categories,
+            series: [
+              values,
+            ],
+          },
+          options: {
+            axisX: {
+              showGrid: false,
+            },
+            low: 0,
+            high: 100,
+            chartPadding: {
+              top: 0,
+              right: 5,
+              bottom: 0,
+              left: 0,
+            },
+          },
+          responsiveOptions: [
+            ['screen and (max-width: 640px)', {
+              seriesBarDistance: 5,
+              axisX: {
+                labelInterpolationFnc: function (value) {
+                  return value[0]
+                },
+              },
+            }],
+          ],
+        }
+      },
       complete (index) {
         this.list[index] = !this.list[index]
+      },
+      groupByControl () {
+        let rawData = window.localStorage.getItem('iso-data') || null
+        let subcategories = []
+        let values = []
+        let cleanData = {}
+        if (rawData) {
+          rawData = JSON.parse(rawData)
+          for (const item of rawData) {
+            if (subcategories.indexOf(item.subcategory) < 0) {
+              cleanData[item.subcategory] = {
+                category: item.category,
+                subcategory: item.subcategory,
+                acc: item.value * 1,
+                count: 1,
+                val: item.value,
+              }
+            } else {
+              cleanData[item.subcategory].count++
+              cleanData[item.subcategory].acc = cleanData[item.subcategory].acc * 1 + item.value * 1
+              cleanData[item.subcategory].val = cleanData[item.subcategory].acc / cleanData[item.subcategory].count
+            }
+          }
+        }
+        for (let k in cleanData) {
+          values.push(cleanData[k])
+        }
+        this.headers = [
+          {
+            sortable: false,
+            text: 'Dominio',
+            value: 'category',
+            align: 'left',
+          },
+          {
+            sortable: false,
+            text: 'Objetivo',
+            value: 'subcategory',
+            align: 'left',
+          },
+          { text: 'Cumplimiento', value: 'val' },
+        ]
+        this.tableData = values
+      },
+      getColor (val) {
+        if (val < 25) return 'red'
+        else if (val < 75) return 'orange'
+        else return 'green'
       },
     },
   }
