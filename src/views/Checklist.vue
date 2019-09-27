@@ -3,33 +3,62 @@
     fluid
   >
   <v-row>
-    <table>
-      <tr>
-        <th>ID</th>
-        <th>Categoría</th>
-        <th>Subcategoría</th>
-        <th>Sección</th>
-        <th>Pregunta</th>
-        <th>Cumplimiento</th>
-      </tr>
-
-      <tr v-for="q in items" v-bind:key="q.id">
-        <td>{{ q.id }}</td>
-        <td>{{ q.category }}</td>
-        <td>{{ q.subcategory }}</td>
-        <td>{{ q.section }}</td>
-        <td>{{ q.question }}</td>
-        <td> <input type="number" name="value" id="q.id" v-model="q.value"
-        max=100 min=0> </td>
-      </tr>
-    </table>
-  </v-row>
-  <v-btn
-    color="primary"
-    v-on:click="updateData"
+    <v-simple-table
+      :fixed-header="true"
+      :height="600"
     >
-    Actualizar
-  </v-btn>
+        <template v-slot:default>
+          <thead>
+            <tr>
+              <th>Categoría</th>
+              <th>Subcategoría</th>
+              <th>Sección</th>
+              <th>Pregunta</th>
+              <th>Cumplimiento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="q in items"
+              :key="q.id"
+            >
+              <td>{{ q.category }}</td>
+              <td>{{ q.subcategory }}</td>
+              <td>{{ q.section }}</td>
+              <td>{{ q.question }}</td>
+              <td>
+                <input
+                  id="q.id"
+                  v-model="q.value"
+                  type="number"
+                  name="value"
+                  max="100"
+                  min="0"
+                >
+              </td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
+    </v-row>
+    <v-row>
+      <v-col cols="12">
+        <v-row
+          :align="center"
+          :justify="center"
+        >
+          <v-btn
+            color="purple darken-2"
+            width="100%"
+            class="white--text"
+            @click="updateData"
+          >
+            <v-icon dark> mdi-content-save-edit </v-icon>
+            Guardar
+          </v-btn>
+        </v-row>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -37,33 +66,6 @@
   export default {
     data: () => ({
       dialog: false,
-      headers: [
-        {
-          sortable: false,
-          text: 'Categoría',
-          value: 'category',
-        },
-        {
-          sortable: false,
-          text: 'Subcategoría',
-          value: 'subcategory',
-        },
-        {
-          sortable: false,
-          text: 'Sección',
-          value: 'section',
-        },
-        {
-          sortable: false,
-          text: 'Pregunta',
-          value: 'question',
-        },
-        {
-          sortable: false,
-          text: '% cumpliemiento',
-          value: 'value',
-        },
-      ],
       items: [],
     }),
     created: function () {

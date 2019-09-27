@@ -14,11 +14,6 @@ export default [
     view: 'Dashboard',
   },
   {
-    path: '/table-list',
-    name: 'Table List',
-    view: 'TableList',
-  },
-  {
     path: '/notifications',
     view: 'Notifications',
   },

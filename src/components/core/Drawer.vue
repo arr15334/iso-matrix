@@ -96,11 +96,6 @@
           icon: 'mdi-view-dashboard',
           text: 'Dashboard'
         },
-        {
-          to: '/table-list',
-          icon: 'mdi-clipboard-outline',
-          text: 'Table List'
-        },
       ]
     }),
 

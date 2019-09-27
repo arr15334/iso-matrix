@@ -21,45 +21,6 @@
 
     <v-spacer />
 
-    <v-toolbar-items>
-      <v-row
-        align="center"
-        class="mx-0"
-      >
-        <v-text-field
-          class="mr-4 purple-input"
-          color="purple"
-          label="Search..."
-          hide-details
-        />
-
-        <v-btn
-          icon
-          to="/dashboard"
-        >
-          <v-icon color="tertiary">
-            mdi-view-dashboard
-          </v-icon>
-        </v-btn>
-
-        <v-menu
-          bottom
-          left
-          offset-y
-          transition="slide-y-transition"
-        >
-        </v-menu>
-
-        <v-btn
-          to="/user-profile"
-          icon
-        >
-          <v-icon color="tertiary">
-            mdi-account
-          </v-icon>
-        </v-btn>
-      </v-row>
-    </v-toolbar-items>
   </v-app-bar>
 </template>
 
@@ -71,15 +32,6 @@
 
   export default {
     data: () => ({
-      notifications: [
-        'Mike, John responded to your email',
-        'You have 5 new tasks',
-        'You\'re now a friend with Andrew',
-        'Another Notification',
-        'Another One'
-      ],
-      title: null,
-      responsive: false
     }),
 
     watch: {
