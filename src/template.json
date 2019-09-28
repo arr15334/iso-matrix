@@ -1,0 +1,184 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "category": "Política de Seguridad",
+            "subcategory": "Políticas de Seguridad de Información",
+            "section": "Documento de la Política de Seguridad de Información",
+            "question": "Existe una Política de Seguridad de la Información, que es aprobada por la dirección, publicada y comunicada según proceda, a todos los empleados?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 2,
+            "category": "Política de Seguridad",
+            "subcategory": "Políticas de Seguridad de Información",
+            "section": "Documento de la Política de Seguridad de Información",
+            "question": "Establecen las políticas un compromiso de las Gerencias con relación al método de la organización para la gestión de la seguridad de la información?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 3,
+            "category": "Política de Seguridad",
+            "subcategory": "Políticas de Seguridad de Información",
+            "section": "Revisión de la Política de Seguridad",
+            "question": "Las políticas de seguridad son revisadas a intervalos regulares, o cuando hay cambios significativos para asegurar la adecuación y efectividad?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 4,
+            "category": "Política de Seguridad",
+            "subcategory": "Políticas de Seguridad de Información",
+            "section": "Revisión de la Política de Seguridad",
+            "question": "Las políticas de Seguridad de la Información tiene un propietario, que ha aprobado la responsabilidad de la gestión para el desarrollo, revisión y evaluación de la política de seguridad?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 5,
+            "category": "Política de Seguridad",
+            "subcategory": "Políticas de Seguridad de Información",
+            "section": "Revisión de la Política de Seguridad",
+            "question": "Existen procedimientos de revisión de las políticas de seguridad y estos incluyen requerimientos para el manejo de su revisión?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 6,
+            "category": "Política de Seguridad",
+            "subcategory": "Políticas de Seguridad de Información",
+            "section": "Revisión de la Política de Seguridad",
+            "question": "Los resultados del revisión de la gestión son tenidos en cuenta?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 7,
+            "category": "Política de Seguridad",
+            "subcategory": "Políticas de Seguridad de Información",
+            "section": "Revisión de la Política de Seguridad",
+            "question": "Se obtiene la aprobación de la alta gerencia con relació a las políticas revisadas?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 8,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Gestión de Compromiso con la Seguridad de Información",
+            "question": "Si la gerencia demuestra soporte activo a las medidas de seguridad dentro de la organización. Esto puede ser realizado por direcciones claras, compromiso demostrado, asignaciones explícitas y conocimiento de las responsabilidades de la seguridad de información.",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 9,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Coordinación de la Seguridad de Información",
+            "question": "Si las actividades de seguridad de información son coordinadas por representantes de distintas partes de la organización, con sus roles pertinentes y responsabilidades.",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 10,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Asignación de Responsabilidades de Seguridad de Información",
+            "question": "Están establecidas las responsabilidades de protección de activos individuales y llevar a cabo procesos de seguridad específicos que estén claramente identificados y definidos?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 11,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Proceso de autorizacion de instalaciones de Procesamiento de Información",
+            "question": "Si el proceso de gestión de autorización está definido e implementado para cada nuevo equipo de procesamiento de información dentro de la organización. ",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 12,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Acuerdos de Confidencialidad",
+            "question": "Si la organización necesita de confidencialidad o Acuerdos de no Divulgación para protección de información que estén claramente definidos y revisados periódicamente.",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 13,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Acuerdos de Confidencialidad",
+            "question": "¿Tiene esta dirección la exigencia de proteger la información confidencial utilizando términos legales exigibles?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 14,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Contacto con las Autoridades",
+            "question": "Existe algún procedimiento que describa cuando y quienes deben contactar a las autoridades competentes, departamento de bomberos, etc y cómo deben reportarse los incidentes?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 15,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Contacto con Grupos de Intereses Especiales",
+            "question": "Existen los contactos apropiados con grupos especiales de interés, foros de seguridad o asociaciones profesionales relacionadas con la seguridad?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 16,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Seguridad de la Información",
+            "section": "Revisión Independiente sobre la Seguridad de Información",
+            "question": "Tiene la organización un enfoque sobre la gestión de la seguridad de información, su implementación, revisión independiente a intervalos regulares o cuando ocurran cambios significativos?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 17,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Partes Externas",
+            "section": "Identificación de los riesgos relacionados con partes externas",
+            "question": "Los riesgos inherentes a equipos o sistemas de información de terceros son identificados y luego implementadas medidas de control apropiadas antes de permitir el acceso?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 18,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Partes Externas",
+            "section": "Abordar la seguridad al tratar con los clientes",
+            "question": "Son identificados todos los requerimientos de seguridad sean cumplidos antes de conceder acceso a los clientes a los activos de la organización?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 19,
+            "category": "Organization de la Seguridad de Información",
+            "subcategory": "Partes Externas",
+            "section": "Abordar la seguridad en acuerdos con terceros",
+            "question": "Los acuerdos con terceros incluyen accesos, procesamiento, comunicaciones, manejo de la información o equipos que involucren almacenamiento de información que cumplan con todos los requerimientos de seguridad?",
+            "observations": "",
+            "value": 0
+        },
+        {
+        	"id": 20,
+        	"category": "Administración de activos",
+        	"subcategory": "Responsabilidad por activos",
+        	"section": "Inventario de activos",
+        	"question": "Son los activos debidamente identificados e inventariados o se mantiene un registro de los activos importantes?",
+        	"observations": "",
+        	"value": 0
+        }
+    ]
+}
