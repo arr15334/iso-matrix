@@ -179,6 +179,24 @@
         	"question": "Son los activos debidamente identificados e inventariados o se mantiene un registro de los activos importantes?",
         	"observations": "",
         	"value": 0
+        },
+        {
+        	"id": 21,
+        	"category": "Administración de activos",
+        	"subcategory": "Responsabilidad por activos",
+        	"section": "Propiedad de Activos",
+        	"question": "Los activos tienen identificados a sus respectivos propietarios y definidas con ellos clasificaciones de datos y restricciones de acceso en base a la criticidad, y estas restricciones revisadas periodicamente?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 22,
+        	"category": "Administración de activos",
+        	"subcategory": "Responsabilidad por activos",
+        	"section": "Uso aceptable de Activos",
+        	"question": "Son identificadas, documentadas e implementadas todas las regulaciones existentes con respecto al uso aceptable de información y activos asociados con el procesamiento de información?",
+			"observations": "",
+			"value": 0        
         }
     ]
 }
