@@ -170,6 +170,15 @@
             "question": "Los acuerdos con terceros incluyen accesos, procesamiento, comunicaciones, manejo de la información o equipos que involucren almacenamiento de información que cumplan con todos los requerimientos de seguridad?",
             "observations": "",
             "value": 0
+        },
+        {
+        	"id": 20,
+        	"category": "Administración de activos",
+        	"subcategory": "Responsabilidad por activos",
+        	"section": "Inventario de activos",
+        	"question": "Son los activos debidamente identificados e inventariados o se mantiene un registro de los activos importantes?",
+        	"observations": "",
+        	"value": 0
         }
     ]
 }
