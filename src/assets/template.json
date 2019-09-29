@@ -197,6 +197,771 @@
         	"question": "Son identificadas, documentadas e implementadas todas las regulaciones existentes con respecto al uso aceptable de información y activos asociados con el procesamiento de información?",
 			"observations": "",
 			"value": 0        
-        }
+        },
+        {
+        	"id": 23,
+        	"category": "Administración de activos",
+        	"subcategory": "Clasificación de la información",
+        	"section": "Directrices de Clasificación",
+        	"question": "La información es clasificada en terminos de su valor, requerimientos legales, sensibilidad y criticidad para la organización?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 24,
+        	"category": "Administración de activos",
+        	"subcategory": "Clasificación de la información",
+        	"section": "Etiquetado y manejo de información",
+        	"question": "Son definidos conjuntos de procedimientos para etiquetado y manejo de la información en concordancia con el esquema de clasificación atoptado por la organización?",
+        	"observations": "",	
+        	"value": 0
+        },
+        {
+        	"id": 25,
+        	"category": "Seguridad de recursos humanos",
+        	"subcategory": "Previo al empleo",
+        	"section": "Roles y Responsabilidades",
+        	"question": "Están claramente definidos y documentados de acuerdo a las políticas de seguridad de información de la organización los roles y responsabilidades de los empleados, contratistas y terceros?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 26,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Previo al Empleo",
+        	"section": "Roles y Responsabilidades",
+        	"question": "Son los roles y responsabilidades definidos previamente, comunicados claramente a los candidatos a empleo durante el proceso de pre empleo?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 27,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Previo al Empleo",
+        	"section": "Proyección",
+        	"question": "Los controles de verificación de antecedentes para todos los candidatos a empleo, contratistas y terceros, son llevados a cabo de acuerdo a las regulaciones relevantes?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 28,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Previo al Empleo",
+        	"section": "Proyección",
+        	"question": "Incluye la verificación referencias sobre el carácter, confirmación de titulos académicos, cualidades profesionales y chequeos independientes de identidad?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 29,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Previo al Empleo",
+        	"section": "Términos y condiciones de empleo",
+        	"question": "Son firmados con los empleados, contratistas y terceros, contratos de confidencialidad y acuerdos de no divulgación como parte inicial de los términos y condiciones de contratos de trabajo?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 30,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Previo al Empleo",
+        	"section": "Términos y condiciones de empleo",
+        	"question": "Estos acuerdos y contratos cubren las responsabilidades de seguridad de información de la organización, los empleados, contratistas y terceros?",
+        	"observations": "",
+        	"value": 0
+        },
+        {
+        	"id": 31,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Durante al Empleo",
+        	"section": "Administración de Responsabilidades",
+        	"question": "La gestión requiere a los empleados, contratistas y terceros a que apliquen la seguridad en concordancia con las Políticas y Procedimientos establecidos en la Organización?",
+        	"observations": "",
+        	"value": 0
+        },
+       	{
+       		"id": 32,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Durante al Empleo",
+        	"section": "Sensibilización, educación y formación sobre la Seguridad de la Información",
+        	"question": "Los empleados, contratistas y terceros reciben la apropiada sensibilización, educación y formación permanente sobre la Seguridad de Información con respecto a sus funciones laborales específicas?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 33,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Durante al Empleo",
+        	"section": "Proceso Disciplinario",
+        	"question": "Existe un proceso disciplinario para aquellos empleados que incumplen las políticas de seguridad?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 34,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Terminación o Cambio de Empleo",
+        	"section": "Responsabilidades de Terminación",
+        	"question": "Las responsabilidades de procedimiento de terminación o cambio de empleo están claramente definidas y asignadas?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 35,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Terminación o Cambio de Empleo",
+        	"section": "Retorno de activos",
+        	"question": "Existe un procedimiento a seguir con respecto a asegurar que los empleados, contratistas y terceros devuelvan los activos de la organización que estén en su poder al terminar el contrato de empleo?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	       	{
+       		"id": 36,
+        	"category": "Seguridad de Recursos Humanos",
+        	"subcategory": "Terminación o Cambio de Empleo",
+        	"section": "Remoción de Derechos de Acceso Lógico",
+        	"question": "Son removidos los derechos de acceso de todos los empleados, contratistas y terceros a los sistemas de información al termino de empleo o adecuación en caso de que cambien de función?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 37,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Areas Seguras",
+        	"section": "Perímetro de Seguridad Física",
+        	"question": "Existen mecanismos de control de acceso implementados con respecto al acceso a los sitios de procesamiento de información? Algunos ejemplos son controles biométricos, tarjetas de acceso, separación por muros, control de visitantes, etc.",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 38,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Areas Seguras",
+        	"section": "Controles Físicos de Entrada",
+        	"question": "Existen controles de acceso de tal modo a que solo las personas autorizadas puedan ingresar a las distintas areas de la organización?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 39,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Areas Seguras",
+        	"section": "Aseguramiento de Oficinas, Salas de Servidores e Instalaciones",
+        	"question": "ExLas salas de servidores u otros equipos de procesamiento (routers, switches, etc.), están apropiadamente resguardadas bajo llave o en cabinas con llave?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 40,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Areas Seguras",
+        	"section": "Protección contra Amenazas Exteriores y Ambientales/Climáticas",
+        	"question": "Se tienen implementadas protecciones o resguardos contra fuego, inundaciones, temblores, explosiones, manifestaciones y otras formas de desastres naturales o provocadas por el hombre?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 41,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Areas Seguras",
+        	"section": "Protección contra Amenazas Exteriores y Ambientales/Climáticas",
+        	"question": "Existe alguna amenaza potencial en los locales vecinos del lugar donde se encuentran las instalaciones?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 42,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Areas Seguras",
+        	"section": "Trabajando en Areas Seguras",
+        	"question": "Se tienen procedimientos designados e implementados sobre como trabajar en las areas seguras?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 43,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Areas Seguras",
+        	"section": "Zonas de Acceso Público, Entrega y  Descarga",
+        	"question": "Con respecto a las zonas de acceso público, entrega, descarga donde personas no autorizadas pueden acceder, las zonas de procesamiento de información y equipos delicados son aislados y asegurados para prevenir el acceso no autorizado?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 44,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Equipamiento y Protección del Sitio",
+        	"question": "Los equipos son protegidos para reducir los riesgos de daños ambientales y oportunidades de acceso no autorizado?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 45,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Utilidades Soportadas",
+        	"question": "Los equipos son protegidos contra fallas eléctricas y otras fallas que pudieran tener (redundancia)?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 46,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Utilidades Soportadas",
+        	"question": "Que mecanismos de protección eléctrica son utilizados? Alimentación multiple, UPS, generador de backup, etc?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 47,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Cableado de Seguridad",
+        	"question": "Los cables de suministro eléctrico y comunicaciones son debidamente protegidos contra intercepción y/o daños?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 48,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Cableado de Seguridad",
+        	"question": "Existen controles adicionales de seguridad con respecto al transporte de información crítica? Por ej. Encriptado en las comunicaciones.",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 49,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Mantenimiento de Equipos",
+        	"question": "Se realiza mantenimiento periódico de los equipos de modo a asegurar la continua disponibilidad e integridad?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 50,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Mantenimiento de Equipos",
+        	"question": "En la realización de mantenimientos, son respetados los intervalos y recomendaciones de los fabricantes?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 51,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Mantenimiento de Equipos",
+        	"question": "Los mantenimientos son realizados unicamente por personal capacitado y autorizado?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 52,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Mantenimiento de Equipos",
+        	"question": "Los logs de alertas de los equipos, son revisados periodicamente para detectar y corregir posibles fallas en los mismos? (principalmente fallas en discos)",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 53,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Mantenimiento de Equipos",
+        	"question": "Se aplican los controles adecuados cuando se envían los equipos fuera de la organización?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 54,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Mantenimiento de Equipos",
+        	"question": "Todos los equipos están cubiertos por pólizas de seguro y los requerimientos de la Compañía de Seguros están apropiadamente realizados?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 55,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Aseguramiento de Equipos fuera de las Oficinas",
+        	"question": "Existen mecanismos de control y mitigación de riesgos implementados con relación a equipos utilizados fuera de la organización? (encripción de discos de las notebooks, seguro, etc.)",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 56,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Aseguramiento de Equipos fuera de las Oficinas",
+        	"question": "En caso de utilización de equipos fuera de la organización, estos cuentan con la autorización respectiva de las gerencias?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 57,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Disposiciones de Seguridad de Reutilización de Equipos",
+        	"question": "Cuando se disponga la reutilización de equipos o cuando sean dados de baja, son verificados los medios de almacenamiento con respecto a datos y software licenciado y luego destruidos totalmente antes de su entrega?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 58,
+        	"category": "Seguridad Física y Ambiental",
+        	"subcategory": "Equipamiento de Seguridad",
+        	"section": "Autorizaciones de Sacar Equipos",
+        	"question": "Existen controles implementados con respecto a que ningún equipo, información y software sea sacado de la organización sin la autorización respectiva?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 59,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Procedimientos y Responsabilidades Operativas",
+        	"section": "Documentación de Procedimientos Operativos",
+        	"question": "Los procedimientos operativos son documentados, actualizados y están disponibles para todos los usuarios que puedan necesitarlos?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 60,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Procedimientos y Responsabilidades Operativas",
+        	"section": "Documentación de Procedimientos Operativos",
+        	"question": "Dichos procedimientos son tratados como documentos formales y cualquier cambio en los mismos necesita la autorización pertinente?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 61,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Procedimientos y Responsabilidades Operativas",
+        	"section": "Manejo de Cambios",
+        	"question": "Son controlados todos los cambios en los sistemas y equipos de procesamiento de información?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 62,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Procedimientos y Responsabilidades Operativas",
+        	"section": "Segregación de Tareas",
+        	"question": "Son separadas las tareas y responsabilidades de modo a reducir las oportunidades de modificación o mal uso de los sistemas de información?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 63,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Procedimientos y Responsabilidades Operativas",
+        	"section": "Separación de desarrollo, test e instalaciones operativas",
+        	"question": "Los equipos de desarrollo y pruebas están separados de los equipos operacionales? Por ejemplo desarrollo de software debe estar en un equipo separado del de producción. Cuando sea necesario, incluso deben estar en segmentos de red distintos unos del otro.",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 64,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Entrega de Servicios Tercerizados",
+        	"section": "Entrega de Servicios",
+        	"question": "Existen medidas que son tomadas para asegurar que los controles de seguridad, niveles de servicio y entrega sean incluidos y verificados en los contratos de servicios con terceros, así como su revisión periódica de cumplimiento? ",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 65,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Entrega de Servicios Tercerizados",
+        	"section": "Monitoreo y revisión de servicios tercerizados",
+        	"question": "Son los servicios, reportes y registros proveídos por teceros regularmente monitoreados y revisados?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 66,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Entrega de Servicios Tercerizados",
+        	"section": "Monitoreo y revisión de servicios tercerizados",
+        	"question": "Existen controles de auditoría que son realizados a intervalos regulares sobre los servicios, reportes y registros suministrados por terceros?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 67,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Entrega de Servicios Tercerizados",
+        	"section": "Manejo de Cambios de servicios tercerizados",
+        	"question": "Se gestionan los cambios en la provisión de servicios, incluyendo mantenimiento y la mejora en las políticas de seguridad de información existentes, procedimientos y controles?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 68,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Entrega de Servicios Tercerizados",
+        	"section": "Manejo de Cambios de servicios tercerizados",
+        	"question": "Se tienen en cuenta sistemas de negocio críticos, procesos involucrados y re-evaluación de riesgos?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 69,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Planeamiento y Aceptación de Sistemas",
+        	"section": "Gestión de la Capacidad",
+        	"question": "La capacidad de procesamiento de los sistemas son monitoreados en base a la demanda y proyectados en base a requerimientos futuros, de modo a asegurar que la capacidad de proceso y almacenamiento estén disponibles? ‎Ejemplo: Monitoreo de espacio en disco, Memoria RAM, CPU en los servidores críticos.",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 70,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Planeamiento y Aceptación de Sistemas",
+        	"section": "Aceptación de Sistemas",
+        	"question": "Son establecidos criterios de aceptación para nuevos sistemas de información, actualizaciones y nuevas versiones? Son realizadas pruebas antes de la aceptación de los mismos?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 71,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Protección contra código malicioso y móvil",
+        	"section": "Controles contra código malicioso",
+        	"question": "Existen controles para detección, prevención y recuperado contra código malicioso y son desarrollados e implementados procedimientos apropiados de advertencia a los usuarios?",
+        	"observations": "",
+        	"value": 0
+       	},
+       	{
+       		"id": 72,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Protección contra código malicioso y móvil",
+        	"section": "Controles contra código movil",
+        	"question": "En caso de necesitarse código móvil, este solo debe utilizarse una vez que haya sido autorizado. ‎Las configuraciones del código móvil autorizado deben realizarse y operarse de acuerdo a las Políticas de Seguridad.‎ La ejecución del código móvil no autorizado, debe prevenirse. ‎‎(Código Móvil es código de software que se transfiere de una computadora a otra y que se ejecuta automáticamente. Realiza una función específica con muy poca o casi ninguna intervención del usuario.  El código móvil está asociado a un gran número de servicios de middleware)",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 73,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Copias de Respaldo",
+        	"section": "Respaldo de la Información",
+        	"question": "Se realizan copias de respaldo de la información y software y son testeados regularmente en conconrdancia con las políticas de backup?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 74,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Copias de Respaldo",
+        	"section": "Respaldo de la Información",
+        	"question": "Toda la información y el software esencial puede ser recuperado en caso de ocurrencia de un desastre o fallo de medios?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 75,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Administración de la Seguridad de la Red",
+        	"section": "Controles de Red",
+        	"question": "La red es adecuadamente administrada y controlada para protegerse de tretas y en orden a mantener la seguridad de los sistemas y aplicaciones en uso a traves de la red, incluyendo la información en transito?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 76,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Administración de la Seguridad de la Red",
+        	"section": "Controles de Red",
+        	"question": "Existen controles implementados para asegurar el transito de la información en la red y evitar que esta sea leída o accesada de forma no autorizada?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 77,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Administración de la Seguridad de la Red",
+        	"section": "Seguridad en los Servicios de Red",
+        	"question": "Las características de seguridad, niveles de servicio y requerimientos de administración de todos los servicios de red son identificados e incluidos en cualquier acuerdo de servicio de red?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 78,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Administración de la Seguridad de la Red",
+        	"section": "Seguridad en los Servicios de Red",
+        	"question": "La capacidad del proveedor de servicios de red de proporcionar los servicios de forma segura, es determinada y regularmente monitoreada y se tienen derechos de auditoría acordada para medir niveles de servicio?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 79,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Medios",
+        	"section": "Manejo de medios removibles",
+        	"question": "Existen procedimientos para el manejo de medios removibles como cintas, diskettes, tarjetas de memoria, lectores de CD, pendrives, etc.?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 80,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Medios",
+        	"section": "Manejo de medios removibles",
+        	"question": "Los procedimientos y niveles de autorización están claramente definidos y documentados?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 81,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Medios",
+        	"section": "Disposición de los medios",
+        	"question": "En caso de que los medios ya no sean requeridos, estos son eliminados de forma segura bajo procedimientos formalmente establecidos?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 82,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Medios",
+        	"section": "Procedimientos de manejo de la información",
+        	"question": "Existen procedimientos para el manejo del almacenamiento de la información?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 83,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Medios",
+        	"section": "Procedimientos de manejo de la información",
+        	"question": "Aborda este procedimiento temas como: protección de la información contra acceso no autorizado o mal uso?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 84,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Manejo de Medios",
+        	"section": "Seguridad en la Documentación de los Sistemas",
+        	"question": "La documentación de los sistemas está protegida contra acceso no autorizado?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 85,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Intercambio de Información",
+        	"section": "Políticas y Procedimientos de intercambio de información",
+        	"question": "Existe una política formal, procedimientos y/o controles aplicados para asegurar la protección a la información?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 86,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Intercambio de Información",
+        	"section": "Políticas y Procedimientos de intercambio de información",
+        	"question": "Estos procedimientos y controles cubren el uso de equipos de comunicación electrónica en el intercambio de información?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 87,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Intercambio de Información",
+        	"section": "Acuerdos de Intercambio",
+        	"question": "Existen acuerdos de intercambio de información y software entre la organización y partes externas?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 88,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Intercambio de Información",
+        	"section": "Acuerdos de Intercambio",
+        	"question": "El contenido de los acuerdos con respecto a la seguridad refleja la sensibilidad y criticidad de la información de negocio envuelta en el proceso?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 89,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Intercambio de Información",
+        	"section": "Medios físicos en transito",
+        	"question": "Los medios físicos que contengan información es protegida contra acceso no autorizado, mal uso o corrupción de datos durante el transporte entre las organizaciones?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 90,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Intercambio de Información",
+        	"section": "Mensajería Electrónica",
+        	"question": "La información que se envía por mensajería electrónica es bien protegida?‎ ‎(Mensajería Electrónica incluye pero no es restringida solamente a email, intercambio electrónico de datos, mensajería instantanea, etc.)‎",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 91,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Intercambio de Información",
+        	"section": "Sistema de información empresarial",
+        	"question": "Las políticas y procedimientos son desarrolladas y tendientes a fortalecer la protección de información asociada con la interconexión de sistemas de negocio?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 92,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Servicios de Comercio Electrónico",
+        	"section": "Comercio Electrónico",
+        	"question": "La información envuelta en el comercio electrónico cruza a través de redes publicas y está protegida contra actividades fraudulenteas, posibles disputas contractuales o cualquier acceso no autorizado que permita lectura o manipulación de esos datos?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 93,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Servicios de Comercio Electrónico",
+        	"section": "Comercio Electrónico",
+        	"question": "En los controles de seguridad son tenidos en cuenta la aplicación de controles criptográficos?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 94,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Servicios de Comercio Electrónico",
+        	"section": "Comercio Electrónico",
+        	"question": "El comercio electrónico entre los socios comerciales incluyen un acuerdo, que compromete a ambas partes a la negociación de los términos convenidos, incluidos los detalles de las cuestiones de seguridad?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 95,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Servicios de Comercio Electrónico",
+        	"section": "Transacciones On-line",
+        	"question": "La información envuelta en transacciones en línea está protegida contra transmisiones incompletas, mal ruteo, alteración de mensajería, divulgación no autorizada, duplicación no autorizada o replicación?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 96,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Servicios de Comercio Electrónico",
+        	"section": "Información disponible públicamente",
+        	"question": "La integridad de la información disponible publicamente está protegida contra modificación no autorizada?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 97,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Registros de Auditoría",
+        	"question": "Los registros de auditoría que guardan la actividad de los usuarios, excepciones, eventos de seguridad de información que ocurren, se guardan por un periodo razonable de tiempo de tal modo a poder realizar investigaciones futuras y monitoreo de acceso?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 98,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Registros de Auditoría",
+        	"question": "Se tienen en consideración medidas de proteccion a la privacidad en el mantenimiento de registros de auditoría?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 99,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Uso de Sistemas de Monitoreo",
+        	"question": "Son desarrollados procedimientos de monitoreo de equipos de procesamiento de datos?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 100,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Uso de Sistemas de Monitoreo",
+        	"question": "El resultado de la actividad de monitoreo es revisada regularmente de forma periódica?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 101,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Uso de Sistemas de Monitoreo",
+        	"question": "Los niveles de monitoreo requeridos por los equipos de procesamiento de información son determinados por un análisis de riesgos?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 102,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Protección de los Logs",
+        	"question": "Los equipos que contienen los registros y logs de auditoría son bien protegidos contra posibles manipulaciones y acceso no autorizado?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 103,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Log de actividades de Administradores y Operadores",
+        	"question": "Las actividades de los Administradores y Operadores de sistemas son registradas en los logs?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 104,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Log de actividades de Administradores y Operadores",
+        	"question": "Son revisados regularmente los logs?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 105,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Registro de Fallas",
+        	"question": "Las fallas son registradas en logs, y luego analizadas y acciones apropiadas realizadas en consecuencia?",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 106,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Registro de Fallas",
+        	"question": "Los niveles de registros en logs requeridos para cada sistema individual son determinados en base a análisis de riesgos y la degradación de performance es tenida en cuenta?‎",
+        	"observations": "‎",
+        	"value": 0
+       	},
+       	{
+       		"id": 107,
+        	"category": "Gestión de Comunicaciones y Operaciones",
+        	"subcategory": "Monitoreo",
+        	"section": "Sincronización de relojes",
+        	"question": "Los relojes de todos los sistemas de información están sincronizados en base a una misma fuente de tiempo exacta acordada?‎ ‎(La correcta sincronización de los relojes es importante para asegurar la cronología de eventos en los logs)‎",
+        	"observations": "‎",
+        	"value": 0
+       	}
     ]
 }
