@@ -962,6 +962,989 @@
         	"question": "Los relojes de todos los sistemas de información están sincronizados en base a una misma fuente de tiempo exacta acordada?‎ ‎(La correcta sincronización de los relojes es importante para asegurar la cronología de eventos en los logs)‎",
         	"observations": "‎",
         	"value": 0
-       	}
+       	},
+        {
+            "id": 108,
+            "category": "Access Control",
+            "subcategory": "Requerimientos del Negocio para Control de Acceso",
+            "section": "Política de Control de Acceso",
+            "question": "Las políticas de control de acceso son desarrolladas y revisadas basadas en los requerimientos de seguridad del negocio?",
+            "observations": "‎",
+            "value": 0
+        },
+        {
+            "id": 109,
+            "category": "Access Control",
+            "subcategory": "Requerimientos del Negocio para Control de Acceso",
+            "section": "Política de Control de Acceso",
+            "question": "Los controles de acceso tanto físico como lógico son tenidos en cuenta en las políticas de control de acceso?",
+            "observations": "‎",
+            "value": 0
+        },
+        {
+            "id": 110,
+            "category": "Access Control",
+            "subcategory": "Requerimientos del Negocio para Control de Acceso",
+            "section": "Política de Control de Acceso",
+            "question": "Tanto a los usuarios como a los proveedores de servicios se les dio una clara declaración de los requisitos de la empresa en cuanto a  control de acceso?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 111,
+            "category": "Access Control",
+            "subcategory": "Administración de Accesos de Usuarios",
+            "section": "Registración de Usuarios",
+            "question": "Existe algún procedimiento formal de altas/bajas de usuarios para acceder a los sistemas?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 112,
+            "category": "Access Control",
+            "subcategory": "Administración de Accesos de Usuarios",
+            "section": "Gestión de Privilegios",
+            "question": "La asignación y uso de privilegios en los sistemas de información, es restringida y controlada en base a las necesidades de uso y dichos privilegios son solo otorgados bajo un esquema formal de autorización?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 113,
+            "category": "Access Control",
+            "subcategory": "Administración de Accesos de Usuarios",
+            "section": "Administración de Contraseñas de Usuarios",
+            "question": "La asignación y reasignación de contraseñas debe controlarse a través de un proceso de gestión formal.",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 114,
+            "category": "Access Control",
+            "subcategory": "Administración de Accesos de Usuarios",
+            "section": "Administración de Contraseñas de Usuarios",
+            "question": "Se les solicita a los usuarios que firmen un acuerdo de confidencialidad del password?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 115,
+            "category": "Access Control",
+            "subcategory": "Administración de Accesos de Usuarios",
+            "section": "Revisión de Roles de Usuarios",
+            "question": "Existe un proceso de revisión de privilegios y derechos de acceso a intervalos regulares. Por ejemplo: Privilegios especiales cada 3 meses, privilegios normales cada 6 meses?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 116,
+            "category": "Access Control",
+            "subcategory": "Responsabilidades de Usuarios",
+            "section": "Uso de Password",
+            "question": "Existe alguna práctica de seguridad en el sitio para guiar a la selección y mantenimiento de contraseñas seguras?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 117,
+            "category": "Access Control",
+            "subcategory": "Responsabilidades de Usuarios",
+            "section": "Equipos desatendidos de Usuarios",
+            "question": "Los usuarios y terceros son concientes de los requisitos de seguridad y procedimientos para proteger los equipos desatendidos? ‎Por ejemplo: Salir del sistema cuando las sesiones son terminadas o configurar terminación automática de sesiones por tiempo de inactividad, etc.",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 118,
+            "category": "Access Control",
+            "subcategory": "Responsabilidades de Usuarios",
+            "section": "Política de Escritorio Limpio y Pantalla Limpia",
+            "question": "La organización ha adoptado una política de escritorio limpio con relación a los papeles y dispositivos de almacenamiento removibles?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 119,
+            "category": "Access Control",
+            "subcategory": "Responsabilidades de Usuarios",
+            "section": "Política de Escritorio Limpio y Pantalla Limpia",
+            "question": "La organización ha adoptado una política de pantalla limpia con relación a los equipos de procesamiento de información?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 120,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Políticas sobre Servicios de Red",
+            "question": "Se le provee a los usuarios acceso unicamente a los servicios de red a los cuales han sido autorizados específicamente?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 121,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Políticas sobre Servicios de Red",
+            "question": "Existen políticas de seguridad relacionadas con la red y los servicios de red?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 122,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Autenticaciones de Usuarios para conexiones externas",
+            "question": "Son utilizados mecanismos apropiados de autenticación para controlar el acceso remoto de los usuarios?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 123,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Identificación de equipamientos en la red",
+            "question": "Son considerados equipos de identificación automática para autenticar conexiones desde equips y direcciones específicas?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 124,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Diagnóstico Remoto y configuración de protección de puertos",
+            "question": "Los accesos físicos y lógicos a puertos de diagnóstico están apropiadamente controlados y protegidos por mecanismos de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 125,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Segregación en la Red",
+            "question": "Los grupos de servicios de información, usuarios y sistemas de información son segregados en la red?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 126,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Segregación en la Red",
+            "question": "La red (desde donde asociados de negocios o terceros necesitan acceder a los sistemas de información) es segregada utilizando mecanismos de seguridad perimetral como firewalls?‎",
+            "observations": "‎",
+            "value": 0
+        },
+        {
+            "id": 127,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Segregación en la Red",
+            "question": "En la segregación de la red son hechas las consideraciones para separar las redes wireles en internas y privadas?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 128,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Control de Conexiones de Red",
+            "question": "Existe una política de control de acceso que verifique conexiones provenientes de redes compartidas, especialmente aquellas que se extienden mas allá de los límites de la organización?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 129,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Control de Ruteo de Red",
+            "question": "Existen políticas de control de acceso que establezcan los controles que deben ser realizados a los ruteos implementados en la red?",
+            "observations": "‎",
+            "value": 0
+        },   
+        {
+            "id": 130,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a la Red",
+            "section": "Control de Ruteo de Red",
+            "question": "Los controles de ruteo, están basados en mecanismos de identificación positiva de origen y destino?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 131,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Procedimientos de  log-on seguro",
+            "question": "Los accesos a sistemas operativos son controlados por procedimientos de log-on seguro?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 132,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Identificación y Autenticación de Usuarios",
+            "question": "Un único identificador de usuario (user ID) es proveído a cada usuario incluyendo operadores, administradores de sistemas y otros técnicos?",
+            "observations": "‎",
+            "value": 0
+        },           
+        {
+            "id": 133,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Identificación y Autenticación de Usuarios",
+            "question": "Se eligen adecuadas técnicas de autenticación para demostrar la identidad declarada de los usuarios?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 134,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Identificación y Autenticación de Usuarios",
+            "question": "El uso de cuentas de usuario genéricas son suministradas sólo en circunstancias especiales excepcionales, donde se especifícan los beneficios claros de su utilización. Controles adicionales pueden ser necesarios para mantener la seguridad.",
+            "observations": "‎",
+            "value": 0
+        },           
+        {
+            "id": 135,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Gestión de Contraseñas",
+            "question": "Existe un sistema de gestión de contraseñas que obliga al uso de controles como contraseña individual para auditoría, periodicidad de caducidad, complejidad mínima, almacenamiento encriptado, no despliegue de contraseñas por pantalla, etc.?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 136,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Utilidades de Uso de Sistemas",
+            "question": "En caso de existir programas utilitarios capaces de saltarse los controles de aplicaciones de los sistemas, estos están restringidos y bien controlados?",
+            "observations": "‎",
+            "value": 0
+        },           
+        {
+            "id": 137,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Expiración de Sesiones",
+            "question": "Las aplicaciones son cerradas luego de un periodo determinado de inactividad?‎ (Un tiempo determinado de inactividad puede ser determinado por algunos sistemas, que limpian la pantalla para prevenir acceso no autorizado, pero no cierra la aplicación o las sesiones de red)",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 138,
+            "category": "Access Control",
+            "subcategory": "Controles de Acceso a Sistemas Operativos",
+            "section": "Limitación de tiempo de conexión",
+            "question": "Existen restricciones limitando el tiempo de conexión de aplicaciones de alto riesgo? Este tipo de configuraciones debe ser considerada para aplicaciones sensitivas cuyas terminales de acceso se encuentran en lugares de riesgo.",
+            "observations": "‎",
+            "value": 0
+        },           
+        {
+            "id": 139,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a las Aplicaciones y a la Información",
+            "section": "Restricción de Acceso a la Información",
+            "question": "El acceso a la información y los sistemas de aplicaciones por parte los usuarios y personal de soporte, está restringido en concordancia con las políticas de control de acceso definidas?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 140,
+            "category": "Access Control",
+            "subcategory": "Control de Acceso a las Aplicaciones y a la Información",
+            "section": "Aislamiento de Sistemas Sensibles",
+            "question": "Aquellos sistemas considerados sensibles, están en ambientes aislados, en computadoras dedicadas para el efecto, con recursos compartidos con aplicaciones seguras y confiables, etc?",
+            "observations": "‎",
+            "value": 0
+        },           
+
+        {
+            "id": 141,
+            "category": "Access Control",
+            "subcategory": "Computación Móvil y Teletrabajo",
+            "section": "Computación Móvil y Comunicaciones",
+            "question": "Existe una política formal y medidas apropiadas de seguridad adoptadas para protegerse contra riesgo de utilización de computación móvil y equipos de comunicación?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 142,
+            "category": "Access Control",
+            "subcategory": "Computación Móvil y Teletrabajo",
+            "section": "Computación Móvil y Comunicaciones",
+            "question": "Algunos ejemplos de computación móvil y equipos de telecomunicación incluyen: notebooks, palmtops, ‎laptops, smart cards, celulares. ‎",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 143,
+            "category": "Access Control",
+            "subcategory": "Computación Móvil y Teletrabajo",
+            "section": "Computación Móvil y Comunicaciones",
+            "question": "Son tenidos en cuenta los riesgos tales como trabajar en ambientes no protegidos en cuanto a las políticas de computación móvil?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 144,
+            "category": "Access Control",
+            "subcategory": "Computación Móvil y Teletrabajo",
+            "section": "Teletrabajo",
+            "question": "Se desarrollan e implementan políticas, planes operativos y procedimientos con respecto a tareas de teletrabajo?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 145,
+            "category": "Access Control",
+            "subcategory": "Computación Móvil y Teletrabajo",
+            "section": "Teletrabajo",
+            "question": "Las actividades de teletrabajo, son autorizadas y controladas por las gerencias y existen mecanismos adecuados de control para esta forma de trabajo?",
+            "observations": "‎",
+            "value": 0
+        }, 
+        {
+            "id": 146,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Requerimientos de Seguridad de los Sistemas de Información",
+            "section": "Análisis y Especificaciones de Rquerimientos de Seguridad",
+            "question": "Los requerimientos de seguridad para nuevos sistemas de información y fortalecimiento de los sistemas existentes, especifican los requerimientos para los controles de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 147,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Requerimientos de Seguridad de los Sistemas de Información",
+            "section": "Análisis y Especificaciones de Rquerimientos de Seguridad",
+            "question": "Los requerimientos y controles identificados reflejan el valor económico de los activos de información envueltos y las consecuencias de un fallo de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 148,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Requerimientos de Seguridad de los Sistemas de Información",
+            "section": "Análisis y Especificaciones de Rquerimientos de Seguridad",
+            "question": "Los requerimientos para la seguridad de información de los sistemas y prcesos para implementar dicha seguridad, son integrados en las primeras etapas de los proyectos de sistemas?",
+            "observations": "‎",
+            "value": 0
+        },  
+
+        {
+            "id": 149,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Procesamiento Correcto en Aplicaciones",
+            "section": "Validación de Datos de Entrada",
+            "question": "Los datos introducidos a los sistemas, son validados para asegurar que son correctos y apropiados?",
+            "observations": "‎",
+            "value": 0
+        },
+        {
+            "id":150 ,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Procesamiento Correcto en Aplicaciones",
+            "section": "Validación de Datos de Entrada",
+            "question": "Los controles tales como: Diferentes tipos de mensajes de error para datos mal ingresados, Procedimientos para responder a los errores de validación, definición de responsabilidades para todo el personal envuelto en la carga de datos, etc. son considerados?",
+            "observations": "‎",
+            "value": 0
+        },        {
+            "id": 151,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Procesamiento Correcto en Aplicaciones",
+            "section": "Control de Procesamiento Interno",
+            "question": "Son incorporadas validaciones en las aplicaciones para detectar/prevenir que puedan ser ingresados datos no válidos por error o deliberadamente?",
+            "observations": "‎",
+            "value": 0
+        },        {
+            "id": 152,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Procesamiento Correcto en Aplicaciones",
+            "section": "Control de Procesamiento Interno",
+            "question": "Se tiene en cuenta en el diseño y la implementación de las aplicaciones que el riesgo de falllas en el procesamiento que conduzcan a perdida de integridad de datos sea minimizado?",
+            "observations": "‎",
+            "value": 0
+        },        {
+            "id": 153,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Procesamiento Correcto en Aplicaciones",
+            "section": "Integridad de Mensajería",
+            "question": "Los requerimientos para aseguramiento y protección de la integridad de los mensajes en las aplicaciones, son debidamente identificados e implementados los controles necesarios?",
+            "observations": "‎",
+            "value": 0
+        },        {
+            "id": 154,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Procesamiento Correcto en Aplicaciones",
+            "section": "Integridad de Mensajería",
+            "question": "Si una evaluación de riesgos de seguridad se llevó a cabo para determinar si es necesaria la integridad del mensaje, y para determinar el método más apropiado de aplicación.",
+            "observations": "‎",
+            "value": 0
+        },        {
+            "id": 155,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Procesamiento Correcto en Aplicaciones",
+            "section": "Validación de Datos de Salida",
+            "question": "‎Los sistemas de aplicaciones de salida de datos, son validados para asegurar que el procesamiento de información almacenada sea correcta y apropiada a las circustancias?",
+            "observations": "",
+            "value": 0
+        },
+        {
+            "id": 156,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Controles Criptográficos",
+            "section": "Políticas de Uso de Controles Criptográficos",
+            "question": "La organización posee políticas de uso de controlec criptográficos para protección de la información? Estas políticas son implementadas con éxito?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 157,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Controles Criptográficos",
+            "section": "Políticas de Uso de Controles Criptográficos",
+            "question": "La política criptográfica considera el enfoque de gestión hacia el uso de controles criptográficos, los resultados de la evaluación de riesgo para identificar nivel requerido de protección, gestión de claves y métodos de diversas normas para la aplicación efectiva?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 158,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Controles Criptográficos",
+            "section": "Manejo de Claves",
+            "question": "La administración de claves se utiliza efectivamente para apoyar el uso de técnicas criptográficas en la organización?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 159,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Controles Criptográficos",
+            "section": "Manejo de Claves",
+            "question": "Las claves criptográficas están protegidas correctamente contra modificación, pérdida y/o destrucción?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 160,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Controles Criptográficos",
+            "section": "Manejo de Claves",
+            "question": "Las claves públicas y privadas están protegidas contra divulgación no autorizada?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 161,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Controles Criptográficos",
+            "section": "Manejo de Claves",
+            "question": "Los equipos utilizados para generar o almacenar claves, están físicamente protegidos?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 162,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Controles Criptográficos",
+            "section": "Manejo de Claves",
+            "question": "Los sistemas de administración de claves, están basados en procedimientos estandarizados y seguros?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 163,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad de los Archivos de Sistemas",
+            "section": "Control de Software Operativo",
+            "question": "Existen procedimientos para controlar la instalación de software en los sistemas operativos (Esto es para minimizar el riesgo de corrupción de los sistemas operativos)",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 164,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad de los Archivos de Sistemas",
+            "section": "Protección de Datos de Prueba de Sistemas",
+            "question": "Los sistemas de testeo de datos, están debidamente protegidos y controlados? ‎ La utilización de información personal o cualquier información sensitiva para propósitos de testeo, está prohibida?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 165,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad de los Archivos de Sistemas",
+            "section": "Control de Acceso a Código Fuente",
+            "question": "Existen controles estrictos de modo a restringir el acceso al código fuente? (esto es para prevenir posibles cambios no autorizados)",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 166,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Procedimientos de Control de Cambios",
+            "question": "Existen procedimientos de control estricto con respecto a cambios en los sistemas de información? ‎‎(Esto es para minimizar la posible corrupción de los sistemas de información)‎",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 167,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Procedimientos de Control de Cambios",
+            "question": "Estos procedimientos aborda la necesidad de evaluación de riesgos, análisis de los impactos de los cambios?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 168,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Revisión Técnica de Aplicaciones luego de Cambios en el Sistema Operativo",
+            "question": "Existen procesos a seguir o procedimientos para revisión y testeo de las aplicaciones críticas de negocio y seguridad, luego de cambios en el Sistema Operativo? Periódicamente, esto es necesario cada vez que haya que hacer un parcheo o upgrade del sistema operativo.",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 169,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Restricciones en Cambios de Paquetes de Software",
+            "question": "Las modificaciones a los paquetes de software, son desalentadas o limitadas extrictamente a los cambios mínimos necesarios?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 170,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Restricciones en Cambios de Paquetes de Software",
+            "question": "Todos los cambios son estrictamente controlados?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 171,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Fuga de Información",
+            "question": "Existen controles para prevenir la fuga de información?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 172,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Fuga de Información",
+            "question": "Controles tales como escaneo de dispositivos de salida, monitoreo regular del personal y actividades permitidas en los sistemas bajo regulaciones locales, monitoreo de recursos, son considerados?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 173,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Desarrollo de Software Tercerizado",
+            "question": "El desarrollo de software tercerizado, es supervisado y monitoreado por la organización?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 174,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Seguridad en el Desarrollo y Servicios de Soporte",
+            "section": "Desarrollo de Software Tercerizado",
+            "question": "Puntos como: Adquisición de licencias, acuerdos de garantía, requerimientos contractuales de calidad asegurada, testeo antes de su instalación definitiva, revisión de código para prevenir troyanos, son considerados?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 175,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Gestión de Vulnerabilidades Técnicas",
+            "section": "Control de Vulnerabilidades Técnicas",
+            "question": "Se obtiene información oportuna en tiempo y forma sobre las vulnerabilidades técnicas de los sistemas de información que se utilizan?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 176,
+            "category": "Desarrollo, Adquisición y Mantenimiento de Sistemas de Información",
+            "subcategory": "Gestión de Vulnerabilidades Técnicas",
+            "section": "Control de Vulnerabilidades Técnicas",
+            "question": "La organización evalúa e implementa medidas apropiadas de mitigación de riesgos a las vulnerabilidades a las que está expuesta?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 177,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Reportando Eventos de Seguridad y Vulnerabilidades",
+            "section": "Reportando Eventos de Seguridad de la Información",
+            "question": "Los eventos de seguridad de información, son reportados a través de los canales correspondientes lo más rápido posible?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 178,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Reportando Eventos de Seguridad y Vulnerabilidades",
+            "section": "Reportando Eventos de Seguridad de la Información",
+            "question": "Son desarrollados e implementados procedimientos formales de reporte, respuesta y escalación en incidentes de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 179,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Reportando Eventos de Seguridad y Vulnerabilidades",
+            "section": "Reportando Vulnerabilidaes de la Seguridad",
+            "question": "Existen procedimientos que aseguren que todos los empleados deben reportar cualquier vulnerabilidad en la seguridad en los servicios o sistemas de información?",
+            "observations": "‎",
+            "value": 0
+        },  
+
+        {
+            "id": 180,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Responsabilidades y Procedimientos",
+            "question": "Están claramente establecidos los procedimientos y responsabilidades de gestión para asegurar una rápida, efectiva y ordenada respuesta a los incidentes de seguridad de información?,
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 181,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Responsabilidades y Procedimientos",
+            "question": "Es utilizado el monitoreo de sistemas, alertas y vulnerabilidades para detectar incidentes de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 182,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Responsabilidades y Procedimientos",
+            "question": "Los objetivos de la gestión de incidentes de seguridad de información, están acordados con las gerencias?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 183,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Aprendiendo de los Incidentes de Seguridad de la Información",
+            "question": "Existen mecanismos establecidos para identificar y cuantificar el tipo, volumen y costo de los incidentes de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 184,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Aprendiendo de los Incidentes de Seguridad de la Información",
+            "question": "La información obtenida de la evaluación de incidentes de seguridad que ocurrieron en el pasado, es utilizada para determinar el impacto recurrente de incidencia  y corregir errores?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 185,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Recolección de Evidencia",
+            "question": "Si las medidas de seguimiento contra una persona u organización después de un incidente de seguridad de la información implica una acción legal (ya sea civil o penal)",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 186,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Recolección de Evidencia",
+            "question": "Las evidencias relacionadas con incidentes, son recolectadas, retenidas y presentadas conforme las disposiciones legales vigentes en las jurisdicciones pertinentes?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 187,
+            "category": "Gestión de Incidentes de Seguridad de Información",
+            "subcategory": "Gestión de Incidentes de Seguridad de la Información y Proceso de Mejoras",
+            "section": "Recolección de Evidencia",
+            "question": "Los procedimientos internos son desarrollados y seguidos al pié de la letra cuando se debe recolectar y presentar evidencia para propósitos disciplinarios dentro de la organización?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 188,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Incluyendo Seguridad en el Proceso de Gestión de Continuidad del Negocio",
+            "question": "Existen procesos que direccionan los requerimientos de seguridad de información para el desarrollo y mantenimiento de la Continuidad del Negocio dentro de la Organización?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 189,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Incluyendo Seguridad en el Proceso de Gestión de Continuidad del Negocio",
+            "question": "Estos procesos, entienden cuales son los riesgos que la organización enfrenta, identifican los activos críticos, los impactos de los incidentes, consideran la implementación de controles preventivos adicionales y la documentación de los Planes de Continuidad del Negocio direccionando los requerimientos de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 190,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Continuidad del Negocio y Evaluación de Riesgos",
+            "question": "Los eventos que puedan causar interrupción al negocio, son identificados sobre la base de probabilidad, impacto y posibles consecuencias para la seguridad de información?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 191,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Desarrollo e Implementación de Planes de Continuidad incluyendo Seguridad de la Información",
+            "question": "Son desarrollados planes para mantener y restaurar las operaciones de negocio, asegurar disponibilidad de información dentro de un nivel aceptable y en el rango de tiempo requerido siguiente a la interrupción o falla de los procesos de negocio?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 192,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Desarrollo e Implementación de Planes de Continuidad incluyendo Seguridad de la Información",
+            "question": "Considera el Plan, la identificación y acuerdo de responsabilidades, identificación de pérdida aceptable, implementación de procedimientos de recuperación y restauración, documentación de procedimientos y testeo periódico realizado regularmente?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 193,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Business continuity planning framework",
+            "question": "Existe un marco único del Plan de Continuidad de Negocios?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 194,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Business continuity planning framework",
+            "question": "Este marco, es mantenido regularmente para asegurarse que todos los planes son consistentes e identifican prioridades para testeo y mantenimiento?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 195,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Business continuity planning framework",
+            "question": "El Plan de Continuidad del Negocio direccionan los requerimientos de seguridad de información identificados?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 196,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Prueba, Mantenimiento y Reevaluando Planes de Continuidad del Negocio ",
+            "question": "Los Planes de Continuidad del Negocio, son probados regularmente para asegurarse de que están actualizados y son efectivos?",
+            "observations": "‎",
+            "value": 0
+        },          {
+            "id": 197,
+            "category": "Gestión de la Continuidad del Negocio",
+            "subcategory": "Aspectos de Seguridad en la Gestión de la Continuidad del Negocio",
+            "section": "Prueba, Mantenimiento y Reevaluando Planes de Continuidad del Negocio ",
+            "question": "Los tests de planes de continuidad de negocio, aseguran que todos los miembros del equipo de recuperación y otros equipos relevantes sean advertidos del contenido y sus responsabilidades para la continuidad del negocio y la seguridad de información, son concientes de sus roles y funciones dentro del plan cuando este se ejecuta?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 198,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Identificación de Legislación Aplicable",
+            "question": "Todas las leyes relevantes, regulaciones, requerimientos contractuales y organizacionales son tenidos en cuenta de modo a que estén documentados para cada sistema de información en la organización?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 199,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Identificación de Legislación Aplicable",
+            "question": "Los controles específicos y responsabilidades individuales de modo a cumplir con estos requerimientos, son debidamente definidos y documentados?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 200,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Derechos de Propiedad Intelectual",
+            "question": "Existen procedimientos para asegurar el cumplimiento de los requerimientos legales, regulatorios y contractuales sobre el uso de materiales y software que estén protegidos por derechos de propiedad intelectual?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 201,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Derechos de Propiedad Intelectual",
+            "question": "Estos procedimientos, están bien implementados?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 202,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Derechos de Propiedad Intelectual",
+            "question": "Controles tales como: Política de Cumplimiento de Derechos de Propiedad Intelectual, Procedimientos de Adquisición de Software, Política de concientización, Mantenimiento de Prueba de la Propiedad, Cumplimiento con Términos y Condiciones, son consideradas?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 203,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Protección de los Registros de la Organización",
+            "question": "Los registros importantes de la organización están protegidos contra pérdida, destrucción y falsificación en concordancia con los requerimientos legales, regulatorios, contractuales y de negocio?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 204,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Protección de los Registros de la Organización",
+            "question": "Están previstas las consideraciónes con respecto al posible deterioro de medios de almacenamiento utilizados para almacenar registros?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 205,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Protección de los Registros de la Organización",
+            "question": "Los sistemas de almacenamiento son elegidos de modo a que los datos requeridos puedan ser recuperados en un rango de tiempo aceptable y en el formato necesario, dependiendo de los requerimientos a ser cumplidos?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 206,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Protección de los Datos y privacidad de los datos personales",
+            "question": "La protección de los datos y la privacidad, están asegurados por legislaciones relevantes, regulaciones y si son aplicables, por cláusulas contractuales?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 207,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Prevención del maluso de las instalaciones de procesamiento",
+            "question": "El uso de instalaciones de proceso de información para cualquier propósito no autorizado o que no sea del negocio, sin la aprobación pertinente, es tratada como utilización impropia de las instalaciones?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 208,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Prevención del maluso de las instalaciones de procesamiento",
+            "question": "Los mensajes de alerta de ingreso, son desplegados antes de permitir el ingreso a la red o a los sistemas?   El usuario tiene conocimiento de las alertas y reacciona apropiadamente al mensaje en pantalla?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 209,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Prevención del maluso de las instalaciones de procesamiento",
+            "question": "Es realizado un asesoramiento jurídico, antes de aplicar cualquier procedimiento de monitoreo y control?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 210,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con Requerimientos Legales",
+            "section": "Regulación de Controles Criptográficos",
+            "question": "Los controles criptográficos son usados en cumplimiento de los acuerdos contractuales establecidos, leyes y regulaciones?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 211,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con las políticas, estándares y regulaciones técnicas",
+            "section": "Cumplimiento con Políticas de Seguridad y Estándares",
+            "question": "Los Administradores se aseguran que todos los procedimientos dentro de su area de responsabilidad, se llevan a cabo correctamente para lograrl el cumplimiento de las normas y políticas de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 212,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con las políticas, estándares y regulaciones técnicas",
+            "section": "Cumplimiento con Políticas de Seguridad y Estándares",
+            "question": "Los Administradores, revisan regularmente el cumplimiento de las instalaciones de procesamiento de información dentro del area de su responsabilidad de modo a cumplir con los procedimientos y políticas de seguridad pertinentes?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 213,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con las políticas, estándares y regulaciones técnicas",
+            "section": "Chequeo de Cumplimiento Técnico",
+            "question": "Los sistemas de información son regularmente revisados con respecto al cumplimiento de estándares de seguridad?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 214,
+            "category": "Cumplimiento",
+            "subcategory": "Cumplimiento con las políticas, estándares y regulaciones técnicas",
+            "section": "Chequeo de Cumplimiento Técnico",
+            "question": "La verificación técnica es llevada a cabo por, o bajo la supervisión de, personal técnico competente y autorizado?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 215,
+            "category": "Cumplimiento",
+            "subcategory": "Consideraciones de Auditoría de Sistemas",
+            "section": "Controles de Auditoría de los Sistemas de Información",
+            "question": "Los requerimientos y actividades de auditoría, incluyen verificación de sistemas de información  que fueron previamente planeados cuidadosamente de modo a minimizar los riesgos de interrupciones en el proceso de negocio? ",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 216,
+            "category": "Cumplimiento",
+            "subcategory": "Consideraciones de Auditoría de Sistemas",
+            "section": "Controles de Auditoría de los Sistemas de Información",
+            "question": "Los requerimientos de auditoria son alcanzables y de acuerdo con una gestión adecuada?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 217,
+            "category": "Cumplimiento",
+            "subcategory": "Consideraciones de Auditoría de Sistemas",
+            "section": "Protección de la información contra las heramientas de auditoría",
+            "question": "La información a la que se accede por medio de las herramientas de auditoría, ya sean software o archivos de datos, están protegidos para prevenir el mal uso o fuga no autorizada?",
+            "observations": "‎",
+            "value": 0
+        },  
+        {
+            "id": 218,
+            "category": "Cumplimiento",
+            "subcategory": "Consideraciones de Auditoría de Sistemas",
+            "section": "Protección de la información contra las heramientas de auditoría",
+            "question": "El ambiente de auditoría está separado de los ambientes operacionales y de desarrollo, a penos que haya un nivel apropiado de protección?",
+            "observations": "‎",
+            "value": 0
+        }
+
     ]
 }
